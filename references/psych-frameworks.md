@@ -1,77 +1,77 @@
-# 心理学理论工具箱（详版）
 
-社交侧写可用的理论框架，按科学效度排序。每条给：是什么 → 社交痕迹中的可能表现 → 效度警告。
-**总原则：理论是用来生成"待验证假设"的，不是用来贴确定标签的。**
+The theoretical frameworks usable for social-media profiling, ranked by scientific validity. Each gives: what it is → possible signs in social traces → validity warning.
+**Master principle: theories generate hypotheses to verify, not labels to stick.**
 
 ---
 
-## 一、大五人格（OCEAN）— 科学效度最高，作主轴
+## 1. Big Five (OCEAN) — highest validity, the backbone
 
-唯一被广泛验证的人格结构模型，有跨文化复现（注意样本以 WEIRD 群体为主）。从社交痕迹推大五，只有群体层面弱相关（相关系数通常 .1–.3），**个体推断误差大，只能给倾向、给不了定论。**
+The only widely validated model of personality structure, with cross-cultural replication (note: samples skew WEIRD). Inferring the Big Five from social traces yields only weak group-level correlation (typically r = .1–.3). **Individual inference error is large — give tendencies, never verdicts.**
 
-| 维度 | 社交痕迹中可能的倾向性线索（弱相关） |
+| Trait | Possible (weak) signal in social traces |
 |---|---|
-| 外向性 E | 真人头像、表情外放、更新频繁、内容丰富、多人合照 ↔ 非真人、少更新、简洁 |
-| 宜人性 A | 暖色调、萌系、合照、积极文案 ↔ 冷色、单人、竞争性内容 |
-| 尽责性 C | 清晰、规整、职业化、信息完整 ↔ 随意、留白、频繁推翻 |
-| 神经质 N | 情绪化内容、暗色调、频繁换头像、深夜活跃 ↔ 稳定、少变 |
-| 开放性 O | 艺术化、非传统、抽象、小众符号 ↔ 传统、常规、主流符号 |
+| Extraversion E | real-person avatar, expressive, frequent updates, rich content, group photos ↔ non-real avatar, rare updates, minimal |
+| Agreeableness A | warm tones, cute content, group photos, positive captions ↔ cold tones, solo, competitive content |
+| Conscientiousness C | clean, orderly, professional, complete profile ↔ casual, blank, frequently overturned |
+| Neuroticism N | emotional content, dark tones, frequent avatar changes, late-night activity ↔ stable, consistent |
+| Openness O | artistic, unconventional, abstract, niche symbols ↔ traditional, conventional, mainstream symbols |
 
-**操作要点：** 推大五必须基于"长期、多场景、跨时间"的行为样本，单张头像只能说明"当下想呈现什么"，说明不了稳定特质。**大五定位全部归"中"置信，不得标"高"。**
-
----
-
-## 二、MBTI / 星座 — 广泛应用但科学效度低
-
-- **问题**：重测信度低（同人间隔几周重测常变型）；把连续维度强行二分成非此即彼；描述多为巴纳姆语句（放之四海皆准）。
-- **正确定位**：社交货币 / 自我标签 / 破冰话题，**不是实证人格工具**。
-- **用法**：当对象自述 MBTI / 星座，它反映的是"**想被如何认知**"（自我理想化方向），不计入大五实测证据。例如自述 ENTJ = 想被看作"强势有领导力"，仅此而已。
+**Operation**: inferring the Big Five requires long-term, multi-context, cross-time behavioral samples. A single avatar only shows "what they want to present right now", not stable traits. **All Big Five placements are "medium" confidence, never "high".**
 
 ---
 
-## 三、自我呈现与自我监控（Goffman / Snyder）
+## 2. MBTI / Astrology — widely used but low scientific validity
 
-- **Goffman 拟剧论**：社交媒体是"前台"，头像/背景/签名是一套面向观众的"表演"，是**想展示的我**，不等于真实的我。
-- **Snyder 自我监控**：高自我监控者随情境与他人期待灵活调整呈现（头像精致、看人下菜）；低自我监控者表里如一（头像随意、长期不换）。
-- **应用**：判断对象是高还是低自我监控，决定其社交痕迹的"信噪比"——高自我监控者的头像信息量大但指向"想被看作什么"，低自我监控者的头像信息量小但更接近真实。
-
----
-
-## 四、Higgins 自我差异理论
-
-- 实际自我（我现在是什么样）/ 理想自我（我想成为什么样）/ 应该自我（我应该是什么样）。
-- **理想—实际差距大 → 沮丧类情绪**（失望、自我不满、抑郁倾向）；**应该—实际差距大 → 焦虑类情绪**。
-- **应用**：当对象的"人设 / 自述理想"（理想自我）与"实际行为表现"（实际自我）落差显著，预示情绪困扰风险。自我描述与实际行为的错位大小本身是关键诊断线索——错位大 = 自我觉察不足，或知道但不愿承认。
+- **Problems**: low test–retest reliability (retesting weeks later often changes type); forces continuous dimensions into binary either/or; descriptions are mostly Barnum statements (true of everyone).
+- **Correct role**: social currency / self-label / icebreaker — **not an empirical personality tool**.
+- **Use**: when the subject self-reports MBTI / astrology, it reflects **"how they want to be seen"** (direction of self-idealization), and never counts as Big Five evidence. E.g. self-reported ENTJ = wants to be seen as "strong, leadership" — nothing more.
 
 ---
 
-## 五、成人依恋类型 — ⚠️ 效度警告，慎用
+## 3. Self-Presentation & Self-Monitoring (Goffman / Snyder)
 
-- 类型：安全型 / 焦虑型 / 回避型 / 恐惧-回避型（渴望亲密又害怕亲密）。
-- **效度警告（必须遵守）**：依恋类型需成人依恋访谈（AAI）或 ECR 量表评估。**从头像、聊天记录推断依恋效度很低**——社交痕迹只能看到"对外的亲密策略"，看不到稳定的内部工作模型。
-- **用法**：只能作"工作假设"，且必须标注"基于有限互动的推测，未经量表评估"。禁止作为确定结论（如直接写"她是恐惧-回避型"）。更稳妥的表述："在关系中呈现渴望亲密又防御亲密的倾向"。
-
----
-
-## 六、防御机制（Vaillant 分级）
-
-受挫 / 焦虑时的应对方式，按成熟度分级：
-- **较成熟**：压抑、利他、幽默、升华。
-- **神经症性**：理智化（用分析覆盖情绪）、置换（把情绪转移到安全对象）、合理化（给不可接受的行为找合理理由）、反向形成。
-- **不成熟**：否认、投射、退行。
-- **应用**：看对象受挫后的第一反应模式——是合理化（"建议不落地"）、否认（"可控"）、还是用幽默化解。同一人不同情境下会用不同防御，**不要因一次反应定终身**。
+- **Goffman's dramaturgy**: social media is a "front stage"; avatar / background / bio are a performance for an audience — **the me they want to show**, not the real me.
+- **Snyder's self-monitoring**: high self-monitors flexibly adjust their presentation to context and others' expectations (polished avatar, audience-dependent); low self-monitors are consistent (casual avatar, rarely changed).
+- **Use**: judge whether the subject is a high or low self-monitor to gauge the signal-to-noise ratio of their traces — a high self-monitor's avatar is informative but points to "what they want to be seen as"; a low self-monitor's avatar is less informative but closer to the real self.
 
 ---
 
-## 七、职业倦怠 burnout（Maslach 三维度）
+## 4. Higgins Self-Discrepancy Theory
 
-- 情绪耗竭（累、燃尽、没能量）/ 去人格化（对工作冷漠、玩世不恭）/ 成就感降低（"我不行""没意义"）。
-- **应用**：当三维度信号同时出现（耗竭 + 冷漠 + 自我否定），才提示 burnout；只有"累"不等于 burnout。**"burnout" 是专业术语，日常语境优先说"资源耗竭 / 职业倦怠倾向"。**
+- Actual self (what I am now) / ideal self (what I want to be) / ought self (what I should be).
+- **Large ideal–actual gap → dejection emotions** (disappointment, self-dissatisfaction, depressive leaning); **large ought–actual gap → anxiety emotions**.
+- **Use**: when the subject's persona / self-reported ideal (ideal self) diverges sharply from their actual behavior (actual self), it MAY correlate with emotional-distress tendencies — but this is a theoretical pattern, NOT a mental-health diagnosis.
+- **⚠️ Mental-health boundary (must follow)**: Self-discrepancy patterns referencing depression/anxiety/emotional-distress are theoretical associations, NOT clinical diagnoses. Never label a subject as "depressive" or "anxious" based on persona gaps. If distress signs appear, recommend the subject seek professional mental-health help — do not diagnose, treat, or counsel. This framework is for hypothesis-level understanding only.
 
 ---
 
-## 八、必须警惕的解读陷阱
+## 5. Adult Attachment — ⚠️ validity warning, use with caution
 
-- **巴纳姆效应 / 主观验证**：笼统模糊的描述人人都觉得准（"你外表坚强内心柔软""你渴望被真正理解"）。**检验方法：这句话放到任意另一个人身上是不是也成立？成立 = 废话，删掉。** 每条定性必须具体、可差异化、可证伪。
-- **后见之明偏差**：知道结果后回头看，什么信号都"早有预兆"。
-- **基本归因错误**：把行为归因于人格（"她就是焦虑"），忽略情境（"她那阵在项目冲刺期"）。**先问"有没有情境解释"，再谈人格。**
+- Types: secure / anxious / avoidant / fearful-avoidant (craves closeness yet fears it).
+- **Validity warning (must follow)**: attachment type is assessed via the Adult Attachment Interview (AAI) or ECR scales. **Inferring attachment from avatars or chat logs has very low validity** — social traces only show the outward intimacy strategy, not the stable internal working model.
+- **Use**: working hypothesis only, and must be flagged "inferred from limited interaction, not scale-assessed". Never state as a definitive conclusion (e.g. do not write "she is fearful-avoidant"). Safer phrasing: "shows a tendency to both crave and defend against closeness in relationships".
+
+---
+
+## 6. Defense Mechanisms (Vaillant's hierarchy)
+
+Ways of coping with setback / anxiety, ranked by maturity:
+- **Mature**: suppression, altruism, humor, sublimation.
+- **Neurotic**: intellectualization (covering emotion with analysis), displacement (redirecting emotion to a safe target), rationalization (finding acceptable reasons for unacceptable behavior), reaction formation.
+- **Immature**: denial, projection, regression.
+- **Use**: watch the subject's first reaction to setbacks — rationalization ("the advice wasn't actionable"), denial ("it's under control"), or humor. The same person uses different defenses in different situations; **never type someone from a single reaction**.
+
+---
+
+## 7. Burnout (Maslach's three dimensions)
+
+- Emotional exhaustion (tired, drained, no energy) / depersonalization (cynicism, detachment toward work) / reduced personal accomplishment ("I'm no good", "it's meaningless").
+- **Use**: only when all three dimensions appear (exhaustion + cynicism + self-doubt) does it suggest burnout; "tired" alone is not burnout. **"Burnout" is a clinical term — prefer "resource depletion / burnout tendency" in everyday context.**
+
+---
+
+## 8. Interpretation traps to avoid
+
+- **Barnum effect / subjective validation**: vague statements feel accurate to everyone ("strong outside, soft inside", "longing to be truly understood"). **Test: would this sentence hold for any random person? If yes = delete it.** Every formulation must be specific, differentiating, falsifiable.
+- **Hindsight bias**: after knowing the outcome, every signal looks like it "predicted" it.
+- **Fundamental attribution error**: attributing behavior to personality ("she's just anxious") while ignoring situation ("she was in a crunch period"). **Always ask "is there a situational explanation" before reaching for personality.**
