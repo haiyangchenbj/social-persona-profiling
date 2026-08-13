@@ -1,66 +1,65 @@
-# 咨询指导 Playbook — "接下来该怎么办"
 
-侧写的价值在于指导行动。这部分把人格分析转化为委托人可以执行的下一步。**先确认委托人用在哪个场景，再套对应模板。**
-
----
-
-## 通用行动框架
-
-**按置信度行动：**
-- 高置信事实 → 可以直接据此行动
-- 中置信推断 → 小步试探、验证后再加码
-- 工作假设 → 不当行动依据，只用来提示"需要观察什么"
-
-**三层行动结构（所有建议都按此组织）：**
-- **立即可做**（本周）：低成本、可逆的动作
-- **观察期动作**（2–4 周）：用来验证工作假设的试探
-- **长期策略**（1 月+）：基于验证后结论的关系/合作定位
+The value of profiling is guiding action. This section turns personality analysis into concrete next steps for the client. **Confirm the client's scenario first, then apply the matching template.**
 
 ---
 
-## 场景一：职场合作 / 深交
+## Universal action framework
 
-- **评估重点**：可靠性、边界感、利益一致性
-- **立即可做**：发起一次低风险协作（一个小任务），看兑现度与沟通质量
-- **观察期**：看 TA 在压力或利益冲突下的表现——是否推责、是否守诺
-- **长期**：决定是否纳入核心协作圈 / 保持泛泛之交
-- **红线信号**：言行不一、习惯性推责、过度索取而不回馈、背后评价他人
+**Act by confidence tier:**
+- High-confidence fact → act on it directly
+- Medium-confidence inference → probe in small steps, verify before escalating
+- Working hypothesis → never a basis for action; only flags what to watch
 
----
-
-## 场景二：亲密关系推进
-
-- **评估重点**：依恋互动模式、价值观契合、冲突处理方式
-- **立即可做**：保持当前舒适频率，不贸然升级；在对方舒服的频道互动
-- **观察期**：制造一次"需要对方"的小场景，看 TA 是否接住你的脆弱
-- **长期**：决定推进节奏——升温 / 维持 / 撤退
-- **红线信号**：把问题都归咎于你（防御性外推）、情绪不稳定且拒绝沟通、只在需要时才出现
+**Three-tier action structure (organize all advice this way):**
+- **Do now** (this week): low-cost, reversible moves
+- **Observation-period moves** (2–4 weeks): probes to verify working hypotheses
+- **Long-term strategy** (1 month+): relationship/collaboration positioning based on verified conclusions
 
 ---
 
-## 场景三：朋友信任判断
+## Scenario 1: Workplace collaboration / getting closer
 
-- **评估重点**：一致性（言行、线上线下）、互惠性、保密能力
-- **立即可做**：分享一个低敏感信息，看是否被妥善对待
-- **观察期**：看 TA 是否在你不在场时维护你、是否只在有事时才联系
-- **长期**：决定信任层级——深交 / 维持 / 淡出
-- **红线信号**：泄露你的隐私、单向索取、背后贬损
-
----
-
-## 场景四：识人防骗
-
-- **评估重点**：不一致信号、操纵话术、信息真实性
-- **立即可做**：交叉验证 TA 提供的可核实信息（单位、身份、经历）
-- **观察期**：看是否催促决策、制造紧迫感、拒绝线下验证
-- **红线信号**：催促转账/投资、拒绝视频或见面、信息前后矛盾、卖惨博同情、过快升温关系
-- **动作**：出现红线 → 立即停止资金往来、保留证据、必要时报警
+- **Assess**: reliability, boundary sense, alignment of interests
+- **Do now**: initiate one low-risk collaboration (a small task); watch follow-through and communication quality
+- **Observation period**: see how they behave under pressure or conflicting interests — do they deflect blame, do they keep commitments
+- **Long-term**: decide whether to bring them into your core collaboration circle / keep it casual
+- **Red flags**: words don't match actions, habitual blame-shifting, over-taking without giving back, talking behind others' backs
 
 ---
 
-## 给委托人建议的原则
+## Scenario 2: Advancing a romantic relationship
 
-1. 只给建立在"可依赖事实"上的建议；工作假设只用来提示"需要观察什么"。
-2. 每个建议说明"基于哪条证据"，让委托人自己能复核判断。
-3. **不替委托人做关系决策**——提供决策所需的信息结构与行动选项，选择权在委托人。
-4. 建议要具体可执行，避免"多沟通""多观察"这类空话——说明沟通什么、观察什么信号。
+- **Assess**: attachment interaction pattern, values fit, conflict-handling style
+- **Do now**: keep the current comfortable frequency, don't escalate abruptly; interact in the channel they're comfortable in
+- **Observation period**: create a small "I need you" moment; see if they catch your vulnerability
+- **Long-term**: decide the pace — warm up / maintain / withdraw
+- **Red flags**: blaming everything on you (defensive externalization), emotionally unstable yet refusing to communicate, only showing up when they need something
+
+---
+
+## Scenario 3: Judging friendship trust
+
+- **Assess**: consistency (words/actions, online/offline), reciprocity, ability to keep confidence
+- **Do now**: share one low-sensitivity piece of information; see if it's handled with care
+- **Observation period**: see if they defend you when you're not around, or only reach out when they need something
+- **Long-term**: decide the trust tier — close friend / maintain / fade out
+- **Red flags**: leaking your privacy, one-sided taking, belittling you behind your back
+
+---
+
+## Scenario 4: Spotting scams / manipulation
+
+- **Assess**: inconsistency signals, manipulative scripts, information authenticity
+- **Do now**: cross-verify the verifiable info they provide (employer, identity, history)
+- **Observation period**: watch whether they rush decisions, manufacture urgency, refuse offline verification
+- **Red flags**: pushing for money transfers/investment, refusing video calls or meeting, contradictory information, pity-baiting, escalating the relationship too fast
+- **Action**: on any red flag → stop all financial transactions immediately, preserve evidence, report to police if necessary
+
+---
+
+## Principles for advising the client
+
+1. Only give advice built on "dependable facts"; working hypotheses only flag "what to watch".
+2. State which piece of evidence each recommendation rests on, so the client can re-check the reasoning themselves.
+3. **Don't make the relationship decision for the client** — provide the information structure and action options; the choice stays with them.
+4. Advice must be concrete and executable — avoid empty phrases like "communicate more" or "observe more"; specify what to communicate and which signals to watch.
