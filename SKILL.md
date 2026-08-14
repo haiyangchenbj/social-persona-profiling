@@ -2,25 +2,25 @@
 name: social-persona-profiling
 slug: social-persona-profiling
 displayName: Social Persona Profiling
-description: Profile people from social-media traces — avatar, profile/cover background, nickname, privacy/visibility settings, chat behavior, shared content, self-reported labels — across platforms and cultures. Delivers an evidence-weighted persona read, relationship analysis, and exploratory considerations. Built on Big Five (OCEAN), self-presentation, self-discrepancy, defense mechanisms, attachment and burnout signals. Three-tier confidence grading, moderator adjustment, projection-symmetry check, Barnum-effect filter. Outputs are exploratory perspectives, not directives.
+description: >
+  Profile people from social-media traces — avatar, profile/cover background, nickname,
+  privacy/visibility settings, chat behavior, shared content, self-reported labels — across
+  platforms (WeChat, WhatsApp, Instagram, LinkedIn, Telegram, X) and cultures, and deliver an
+  honest, evidence-weighted persona read, relationship analysis, or "what should I do next"
+  guidance. Built for anyone sizing up a colleague, date, friend, or stranger from limited
+  online signals. Capabilities: Big Five (OCEAN) trait estimation, self-presentation &
+  self-monitoring (Goffman/Snyder), Higgins self-discrepancy, defense mechanisms (Vaillant),
+  attachment and burnout signals, three-layer persona mapping (public persona / private self /
+  self-reported), relationship-crisis attribution, and exploratory non-directive next-step discussion by
+  scenario (workplace / dating / friendship / scam detection). Safeguards: three-tier
+  confidence grading (objective fact / behavioral inference / working hypothesis), moderator
+  adjustment for age, culture (individualist vs collectivist), platform, personality baseline
+  and digital-native generation, projection-symmetry check, and a Barnum-effect filter that
+  deletes any statement true of anyone.
 description_zh: 社交人格侧写与关系分析
 description_en: Social Persona Profiling
-version: "1.0.9"
+version: "1.0.11"
 agent_created: true
-read_when:
-  - social persona profiling
-  - analyze social media personality
-  - relationship analysis from chat history
-  - credibility assessment from social traces
-  - 社交人格侧写
-  - 人物侧写
-  - 关系分析
-not_for:
-  - Analyzing public figures or people without reasonable access to their social traces
-  - Discriminatory or manipulative profiling purposes
-  - Making employment, credit, or legal decisions about the analyzed person
----
-
 ---
 
 # social-persona-profiling
@@ -113,45 +113,46 @@ Recommended structure, trim as needed:
 4. **Psychological formulation**: what kind of person + one-sentence formulation (the core deliverable).
 5. **Big Five placement**: five traits, all "medium" confidence.
 6. **Exploratory considerations (what to reflect on)**: by scenario (workplace / dating / friendship / scam), a small set of patterns to notice and questions to reflect on — not a decision tree, not "do this now". Resting on dependable facts. Templates: @references/consulting-playbook.md.
-7. **Methodology note**: validity ceiling + position statement, brief, at the end.
+7. **Methodology note**: validity ceiling + stance declaration, brief, at the end.
 
 ## Failure Handling
 
 | Scenario | Action |
-|------|------|
-| Insufficient data (single avatar / single post) | State only very limited inference is possible, refuse a full formulation; suggest multi-context, longitudinal samples |
-| Client requests discriminatory / manipulative use | Refuse, state the ethical boundary (see Application Scenarios & Ethics) |
-| Cannot confirm subject baseline (age / culture unknown) | Ask the client first; if unavailable, declare "baseline not calibrated, overall confidence downgraded one tier" in the report |
-| Inference conflicts with client expectation | Don't bend to expectation; present the evidence-supported conclusion and flag the divergence |
-| Material contains identifiable sensitive info | Analyze internally only; don't restate identifiable details in output; remind the client about the subject's privacy |
+|---|---|
+| Insufficient data (single avatar / single post) | State only very limited inference is possible; refuse full formulation; suggest multi-context cross-time behavioral samples |
+| Client requests discriminatory / manipulative use | Refuse, state ethics boundary (see Application Scenarios & Ethics) |
+| Cannot confirm subject's baseline (age / culture unknown) | Ask client to supplement; if unavailable, state "baseline uncalibrated, overall confidence down one tier" |
+| Inference conflicts with client expectation | Do not accommodate expectation; present evidence-supported conclusion and flag the divergence |
+| Material contains identifiable sensitive info | Internal analysis only; do not reproduce identifiable details in output; remind client of subject's privacy |
 
-## Bias Checklist (self-check before producing)
-- **Validity ceiling**: social avatar/traces → personality has only weak academic support (Gosling's physical/virtual environment personality expression, cross-cultural collectivist explanations of avatar choice, broad Big Five correspondence research); supports only weak correlation at "broad trait + cultural background" level, not "type → fixed personality" mapping.
-- **Confirmation bias**: was the material filtered by the client? Did they only give parts supporting one reading? (only applies if data is filtered/fragmentary; skip if the client states it's a complete conversation flow)
-- **Information cascade loss**: analysis → user transcription → user memory/emotion; distortion compounds at each layer. (only when relying on secondhand transcription; not when transcription is factual or images are read directly)
-- **Narrator-protagonist effect**: the client narrates, tending to cast themselves as the "clear-eyed observer" and the subject as the "observed object".
-- **Self-serving bias**: does attribution happen right after the client's emotional event? Does it assign problems to the subject's "structure" to protect the self?
-- **Narrative over-integration**: are independent elements (nickname + avatar + background) forced into one "unified theme"? When elements don't cohere, the so-called "tension aesthetic" is often the analyst's framework imposition.
-- **Circular reasoning**: the persona was inferred from these behaviors, then used to explain them — that is consistency checking, not causal explanation.
+## Systematic bias audit checklist (self-review before producing)
+
+- **Validity ceiling**: social-avatar/trace → personality has only weak academic support (Gosling physical/virtual environment personality expression, cross-cultural avatar choice collectivism explanation, broad Big Five correspondence research); supports only "broad dimension + cultural context" weak correlation, not "type → definite personality".
+- **Confirmation bias**: was the material filtered by the user? Did they only provide parts supporting a certain reading? (Only applies when data is genuinely filtered/fragmented; if user states it's the full conversation, this item does not apply)
+- **Information cascade loss**: analysis → user transcription → user memory/emotion, each layer distorts. (Only applies when relying on second-hand transcription; does not apply when transcription is factual or reading images directly)
+- **Narrative protagonist effect**: the user is the narrator, tending to place themselves as the "sober observer" and the other as the "observed object".
+- **Self-serving bias**: is the responsibility attribution after the user's emotional event? Is the problem attributed to the other's "structure" to protect themselves?
+- **Narrative over-integration**: are several independent elements (e.g. nickname + avatar + background) forced into a "unified theme"? When elements are uncoordinated, the so-called "tension aesthetics" is often the analyst's framework imposed.
+- **Circular reasoning**: profiling infers from these behaviors, then uses the profile to explain these behaviors — only counts as consistency check, not causal explanation.
 
 ## Pitfalls
-- **Barnum effect (biggest trap)**: vague descriptions feel accurate to everyone ("strong outside, soft inside", "longing to be understood"). Test: would this hold for any random person? If yes = delete it. Every formulation must be specific, differentiating, falsifiable.
-- **Attachment labeling**: judging "avoidant/anxious attachment" from avatar/chat has very low validity and needs scales. Working hypothesis only, flagged, never definitive.
-- **Clinical-term abuse**: "learned helplessness", "regression", "burnout" have specific meanings; don't use casually. Say "expression of helplessness" not "learned helplessness".
-- **Treating MBTI/astrology self-report as measurement**: ENTJ, earth-sign etc. are self-idealizing labels; they only reflect "how they want to be seen", never Big Five evidence.
-- **Reading cultural norm as personality**: collectivist-culture users using non-real avatars and restricted visibility (group/time-limited) is common (privacy vigilance + indirect self-display); don't read cultural norm as a personal signal.
-- **Romanticizing**: a polite reply ("thanks", "I know") ≠ "trust rising" or "we've seen each other's vulnerability".
-- **Over-inferring from one sample**: a "behavior pattern" induced from a single event has n=1; not a confirmed stable pattern.
+- **Barnum effect (biggest trap)**: vague descriptions everyone feels are accurate ("tough exterior, soft interior" "wants to be understood"). Test: would this statement hold for any random person? If yes = useless, delete. Each formulation must be specific, differentiable, falsifiable.
+- **Attachment type labeling**: judging "avoidant/anxious attachment" from avatar/chat has very low validity; needs scale assessment. Working hypothesis only, must be flagged, never definitive.
+- **Clinical term abuse**: "learned helplessness" "regression" "burnout" have specific meanings; don't use casually in everyday contexts. Say "expression of powerlessness" not "learned helplessness".
+- **Treating MBTI / astrology self-reports as measured**: ENTJ, earth signs etc. are user/subject self-idealization labels, only reflecting "how they want to be seen", not counting as Big Five evidence.
+- **Cultural norm misread as personality**: collectivist culture users with non-real avatars, restricted visibility (grouping/timing) is quite common (privacy vigilance + indirect self-display); don't read cultural norm as personal psychological signal.
+- **Romanticized reading**: the other's polite response ("thanks" "I know") does not equal "trust increased" "seen each other's vulnerability".
+- **Over-inferring from single sample**: inferring "behavioral pattern" from one event, sample size = 1, cannot be confirmed as stable pattern.
 
 ## Verification
 After producing the report, self-check:
-- Was moderator adjustment done first (age/culture/personality baseline/digital-native generation), removing "baseline-normal" signals?
-- Was the use scenario and client intent confirmed compliant (non-manipulative, non-discriminatory)?
-- Does every conclusion carry a confidence tier tag?
-- If data was client-filtered/transcribed, was information loss flagged? (skip when data is complete and transcription factual — avoid inapplicable disclaimer noise)
-- Was the projection-symmetry check done (if applicable)?
-- Is the report body clean — no meta-language like "correction: / clarification / my review found", only final analysis?
-- Does it close with a clear psychological formulation (what kind of person + one sentence), not stop at behavior listing?
-- Is there a "specific over-inference list" that singles out and downgrades the weakest claims?
-- Was the client reminded that the subject cannot defend themselves in this document?
-If any answer is "no", the report fails the honesty bar — rework.
+- Did you calibrate with moderators (age/culture/personality baseline/digital-native generation) first, removing "baseline-normal" signals?
+- Did you confirm the use case and client intent compliance (non-manipulative, non-discriminatory)?
+- Can every conclusion find its corresponding confidence tier label?
+- If data was genuinely filtered/transcribed, did you flag the information loss? (When data is complete or transcription is factual, don't write this item, to avoid制造不适用的免责噪音)
+- Did you do the projection-symmetry check (if applicable)?
+- Is the report body clean — no "correction / clarification / my review found" meta-language, only the final analysis?
+- Does it close with a clear psychological formulation (what kind of person + one-sentence formulation), not stopping at behavior listing?
+- Is there a "specific over-inference list" separating out the least-supported items and downgrading them?
+- Did you remind the client: the subject cannot defend themselves in this document?
+If any answer is "no", the report has not reached the honesty standard and needs rework.
