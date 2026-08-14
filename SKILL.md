@@ -11,22 +11,21 @@ description: >
   Big Five (OCEAN), self-presentation (Goffman/Snyder), self-discrepancy
   (Higgins), defense mechanisms (Vaillant), attachment and burnout signals.
   Three-tier confidence grading, moderator adjustment for age/culture/baseline,
-  projection-symmetry check, Barnum-effect filter. Use when: "analyze this
-  person", "is this person trustworthy", "relationship crisis analysis",
-  "what should I do next".
+  projection-symmetry check, Barnum-effect filter. Activate only when the user
+  attaches concrete social-media traces (avatar / profile / chat history) and
+  asks for analysis of that specific individual.
 description_zh: 社交人格侧写与关系分析。基于社交痕迹（头像/profile/昵称/可见性/聊天记录/分享内容/自述标签，跨平台跨文化）做人物侧写、关系分析与行动指导。以大五人格为科学主轴，辅以自我呈现/自我监控、Higgins 自我差异、防御机制、依恋、burnout；强制年龄/文化/平台/性格基线/数字化世代调节，三层置信度分级，投射对称性检查与巴纳姆效应过滤。
 description_en: Social Persona Profiling
-version: "1.0.5"
+version: "1.0.7"
 agent_created: true
 read_when:
-  - "persona profiling"
-  - "analyze this person"
-  - "is this person trustworthy"
-  - "relationship crisis analysis"
-  - "social media personality"
-  - "社交人格侧写"
-  - "人物侧写"
-  - "关系分析"
+  - "User attaches social-media traces (avatar / profile / chat) and asks for analysis of that specific individual"
+  - "User asks whether a specific person's statement is credible, WITH that statement and context provided"
+  - "User describes a relationship event WITH chat history or social profile attached"
+  - "User asks 'is this person trustworthy' WITH social trace data provided, not as a general opinion"
+  - "社交人格侧写（用户提供具体社交痕迹）"
+  - "人物侧写（含社交数据）"
+  - "关系分析（含聊天记录或社交档案）"
 not_for:
   - "Analyzing public figures, celebrities, or people without reasonable access to their social traces"
   - "Discriminatory, manipulative, or PUA-style profiling purposes"
