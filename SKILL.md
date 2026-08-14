@@ -7,16 +7,18 @@ description: >
   nickname, privacy/visibility settings, chat behavior, shared content,
   self-reported labels — across platforms (WeChat, WhatsApp, Instagram,
   LinkedIn, Telegram, X) and cultures. Delivers an evidence-weighted persona
-  read, relationship analysis, or exploratory next-step guidance. Built on
-  Big Five (OCEAN), self-presentation (Goffman/Snyder), self-discrepancy
-  (Higgins), defense mechanisms (Vaillant), attachment and burnout signals.
-  Three-tier confidence grading, moderator adjustment for age/culture/baseline,
-  projection-symmetry check, Barnum-effect filter. Activate only when the user
-  attaches concrete social-media traces (avatar / profile / chat history) and
-  asks for analysis of that specific individual.
-description_zh: 社交人格侧写与关系分析。基于社交痕迹（头像/profile/昵称/可见性/聊天记录/分享内容/自述标签，跨平台跨文化）做人物侧写、关系分析与行动指导。以大五人格为科学主轴，辅以自我呈现/自我监控、Higgins 自我差异、防御机制、依恋、burnout；强制年龄/文化/平台/性格基线/数字化世代调节，三层置信度分级，投射对称性检查与巴纳姆效应过滤。
+  read, relationship analysis, and a small set of patterns to notice and
+  questions to reflect on. Built on Big Five (OCEAN), self-presentation
+  (Goffman/Snyder), self-discrepancy (Higgins), defense mechanisms (Vaillant),
+  attachment and burnout signals. Three-tier confidence grading, moderator
+  adjustment for age/culture/baseline, projection-symmetry check, Barnum-effect
+  filter. NOT a decision-support system: outputs are exploratory perspectives,
+  not directives for consequential interpersonal judgments. Activate only when
+  the user attaches concrete social-media traces (avatar / profile / chat
+  history) and asks for analysis of that specific individual.
+description_zh: 社交人格侧写与关系分析。基于社交痕迹（头像/profile/昵称/可见性/聊天记录/分享内容/自述标签，跨平台跨文化）做人物侧写、关系分析与待观察模式清单。以大五人格为科学主轴，辅以自我呈现/自我监控、Higgins 自我差异、防御机制、依恋、burnout；强制年龄/文化/平台/性格基线/数字化世代调节，三层置信度分级，投射对称性检查与巴纳姆效应过滤。不是决策支持系统：输出为探索性视角而非决定性的人际判断指令。
 description_en: Social Persona Profiling
-version: "1.0.7"
+version: "1.0.8"
 agent_created: true
 read_when:
   - "User attaches social-media traces (avatar / profile / chat) and asks for analysis of that specific individual"
@@ -112,7 +114,7 @@ The same signal can mean opposite things across groups. **Interpreting without a
 5. **[LLM] (if a relationship event) Attribution**: reconstruct the timeline, but state it is single-sided. Responsibility assignment must declare "contains self-serving bias".
 6. **[LLM] Critical review (mandatory)**: run the bias checklist (below) before producing, and give a "specific over-inference list".
 7. **[LLM] Psychological formulation close**: integrate the toolbox into "what kind of person is this" + a one-sentence formulation.
-8. **[LLM] Action guidance**: besides the report, give actionable "what to do next". Confirm the client's scenario (workplace / dating / friendship / scam), organize into "do now / observation period / long-term strategy"; advice rests only on dependable facts, working hypotheses only flag what to watch. Templates: @references/consulting-playbook.md.
+8. **[LLM] Exploratory considerations**: in addition to the analysis, surface a small set of patterns to notice and questions to reflect on. Confirm the client's scenario (workplace / dating / friendship / scam), then list 3–5 patterns worth watching and 3–5 questions the client can sit with — not a decision tree, not "do this now". Working hypotheses only flag what to watch, not what to do. Templates: @references/consulting-playbook.md.
 
 ## Output Format (report skeleton)
 
@@ -123,7 +125,7 @@ Recommended structure, trim as needed:
 3. **Psychological dynamics**: integrate the toolbox, tie each to behavioral evidence.
 4. **Psychological formulation**: what kind of person + one-sentence formulation (the core deliverable).
 5. **Big Five placement**: five traits, all "medium" confidence.
-6. **Action guidance (what to do next)**: by scenario, "do now / observation / long-term" three tiers, resting on dependable facts. Templates: @references/consulting-playbook.md.
+6. **Exploratory considerations (what to reflect on)**: by scenario (workplace / dating / friendship / scam), a small set of patterns to notice and questions to reflect on — not a decision tree, not "do this now". Resting on dependable facts. Templates: @references/consulting-playbook.md.
 7. **Methodology note**: validity ceiling + position statement, brief, at the end.
 
 ## Failure Handling
