@@ -19,7 +19,7 @@ description: >
   deletes any statement true of anyone.
 description_zh: 社交人格侧写与关系分析
 description_en: Social Persona Profiling
-version: "1.0.11"
+version: "1.0.12"""
 agent_created: true
 ---
 
