@@ -1,6 +1,6 @@
 ## Description:
 
-Produces evidence-weighted, tentative persona and relationship analyses from social-media profiles, chats, and shared content.
+Analyzes user-provided social-media traces to offer evidence-weighted persona and relationship insights, with confidence labels and non-directive discussion prompts.
 
 This skill is ready for commercial/non-commercial use.
 
@@ -14,7 +14,7 @@ MIT-0
 
 ## Use Case:
 
-People seeking exploratory, non-diagnostic insight into social-media presentation or interpersonal interactions can use this skill to examine limited online signals and reflect on possible interpretations.
+People seeking a cautious, exploratory reading of user-provided social-media traces use the skill to organize observable details, consider tentative persona or relationship interpretations, and identify non-directive discussion points.
 
 ### Deployment Geography for Use:
 
@@ -22,34 +22,34 @@ Global
 
 ## Known Risks and Mitigations:
 
-Risk: Profiling other people from limited social-media traces can expose sensitive personal details and invite unwarranted judgments.
+Risk: Social-media traces may contain sensitive personal information or identifying details.
 
-Mitigation: Use only material accessed for a legitimate purpose with appropriate consent; avoid unnecessary identifiable details and do not share profiles publicly.
+Mitigation: Use only information you have permission to share and remove identifying details.
 
-Risk: Speculative personality readings can be mistaken for reliable assessments or used in consequential decisions.
+Risk: Personality conclusions drawn from limited social traces may be inaccurate.
 
-Mitigation: Present conclusions as tentative and evidence-limited; do not use the skill on minors or for hiring, credit, legal, medical, public-shaming, or other consequential decisions.
+Mitigation: Treat conclusions as uncertain; avoid covert relationship tests or consequential decisions based on the report.
 
 ## Reference(s):
 
-- [Social Persona Profiling release](https://clawhub.ai/haiyangchenbj/skills/social-persona-profiling)
-- [Psychological frameworks](artifact/references/psych-frameworks.md)
-- [Contextual moderators](artifact/references/moderators.md)
-- [Exploratory consultation playbook](artifact/references/consulting-playbook.md)
+- [Consulting Playbook](references/consulting-playbook.md)
+- [Moderators](references/moderators.md)
+- [Psych Frameworks](references/psych-frameworks.md)
+- [ClawHub skill page](https://clawhub.ai/haiyangchenbj/skills/social-persona-profiling)
 
 ## Skill Output:
 
 **Output Type(s):** [Analysis, Guidance]
 
-**Output Format:** [Markdown report]
+**Output Format:** [Structured Markdown report]
 
 **Output Parameters:** [1D]
 
-**Other Properties Related to Output:** [Evidence and confidence tiers, a tentative psychological formulation, and non-directive reflection prompts.]
+**Other Properties Related to Output:** [Confidence-tiered findings and exploratory, non-directive discussion prompts.]
 
 ## Skill Version(s):
 
-1.0.12 (source: release evidence and skill frontmatter)
+1.0.13 (source: frontmatter)
 
 ## Ethical Considerations:
 
