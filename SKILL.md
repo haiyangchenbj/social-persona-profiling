@@ -19,7 +19,7 @@ description: >
   deletes any statement true of anyone.
 description_zh: 社交人格侧写与关系分析
 description_en: Social Persona Profiling
-version: "1.0.13"
+version: "1.0.14"
 agent_created: true
 ---
 
@@ -150,7 +150,7 @@ After producing the report, self-check:
 - Did you calibrate with moderators (age/culture/personality baseline/digital-native generation) first, removing "baseline-normal" signals?
 - Did you confirm the use case and client intent compliance (non-manipulative, non-discriminatory)?
 - Can every conclusion find its corresponding confidence tier label?
-- If data was genuinely filtered/transcribed, did you flag the information loss? (When data is complete or transcription is factual, don't write this item, to avoid制造不适用的免责噪音)
+- If data was genuinely filtered/transcribed, did you flag the information loss? (When data is complete or transcription is factual, don't write this item, to avoid inapplicable disclaimer noise)
 - Did you do the projection-symmetry check (if applicable)?
 - Is the report body clean — no "correction / clarification / my review found" meta-language, only the final analysis?
 - Does it close with a clear psychological formulation (what kind of person + one-sentence formulation), not stopping at behavior listing?
