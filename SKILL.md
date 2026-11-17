@@ -19,7 +19,7 @@ description: >
   deletes any statement true of anyone.
 description_zh: 社交人格侧写与关系分析
 description_en: Social Persona Profiling
-version: "1.0.14"
+version: "1.0.15"
 agent_created: true
 ---
 
@@ -120,6 +120,7 @@ Recommended structure, trim as needed:
 | Scenario | Action |
 |---|---|
 | Insufficient data (single avatar / single post) | State only very limited inference is possible; refuse full formulation; suggest multi-context cross-time behavioral samples |
+| Only self-reported labels/descriptions supplied, no observable trace | Treat as self-presentation data only (no behavioral evidence); do not assign High/Medium confidence tiers and do not produce a Big Five placement |
 | Client requests discriminatory / manipulative use | Refuse, state ethics boundary (see Application Scenarios & Ethics) |
 | Subject is a public figure or minor | Refuse; state the boundary (see Privacy & Use Warning); offer to discuss the user's own situation instead |
 | Cannot confirm subject's baseline (age / culture unknown) | Ask client to supplement; if unavailable, state "baseline uncalibrated, overall confidence down one tier" |
